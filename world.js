@@ -20,7 +20,7 @@ $(document).ready(function()
         .done(function(data) 
         {
            $("#result").html("");
-           alert(data); // Displaying previous result in alert
+           alert(data); 
            $("#result").append(data);
         }).fail(function()// In the event request is not able to find request page
         {
